@@ -5,7 +5,7 @@ cask "markdown-prism" do
   url "https://github.com/hulryung/markdown-prism/releases/download/v#{version}/MarkdownPrism-#{version}.dmg"
   name "Markdown Prism"
   desc "Native macOS Markdown viewer and editor with live preview"
-  homepage "https://github.com/hulryung/markdown-prism"
+  homepage "https://prism.huconn.xyz"
 
   depends_on macos: ">= :sonoma"
 
