@@ -9,7 +9,7 @@ cask "markdown-prism" do
 
   depends_on macos: ">= :sonoma"
 
-  app "Markdown Prism.app"
+  app "MarkdownPrism.app"
 
   zap trash: [
     "~/Library/Containers/com.markdownprism.app",
