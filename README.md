@@ -14,7 +14,7 @@ brew tap hulryung/tap
 |------|-------------|---------|
 | `claude-rate-widget` | macOS widget that monitors Claude Code rate limits | 1.4.1 |
 | `hangulkeychanger` | Remap keys for Korean/English input switching on macOS | 2.3.0 |
-| `mac-mouse-scroll-is-bulpyun` | Reverse mouse scroll direction without affecting trackpad | 1.0.0 |
+| `mac-mouse-scroll-is-bulpyun` | Reverse mouse scroll direction without affecting trackpad | 1.1.0 |
 | `markdown-prism` | Native macOS Markdown viewer and editor with live preview | 0.2.0 |
 
 ### Install

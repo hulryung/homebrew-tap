@@ -1,6 +1,6 @@
 cask "mac-mouse-scroll-is-bulpyun" do
-  version "1.0.0"
-  sha256 "d5f900ef6877f0a3b117d0869b9f71a3b00674e722c5ca7ad933e7f58074e380"
+  version "1.1.0"
+  sha256 "79f2635b62a62042cc00324108f35d59949438616000e1c505dded4d836855d2"
 
   url "https://github.com/hulryung/mac-mouse-scroll-is-bulpyun/releases/download/v#{version}/mac-mouse-scroll-is-bulpyun.dmg"
   name "mac-mouse-scroll-is-bulpyun"
