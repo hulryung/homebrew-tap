@@ -1,6 +1,6 @@
 cask "markdown-prism" do
-  version "0.2.0"
-  sha256 "b97c27082ebb311bd7726f8acf6e51f70965753877f749bac85984835f56f778"
+  version "0.3.0"
+  sha256 "22af84b0edf0e1c1bf5297aeb91df5de99c2e8c4b73e022849a1fdd8c98c98cc"
 
   url "https://github.com/hulryung/markdown-prism/releases/download/v#{version}/MarkdownPrism-#{version}.dmg"
   name "Markdown Prism"
@@ -9,7 +9,7 @@ cask "markdown-prism" do
 
   depends_on macos: ">= :sonoma"
 
-  app "MarkdownPrism.app"
+  app "Markdown Prism.app"
 
   zap trash: [
     "~/Library/Containers/com.markdownprism.app",
