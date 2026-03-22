@@ -1,6 +1,6 @@
 cask "hidpi" do
   version "1.0.0"
-  sha256 "beaa407217de928d8b4985101945f03460cfcd771e9547f53f99adcc47ba88e3"
+  sha256 "8af23c93614d61b636b4076c819a82553d0ad58e84369e9dead88e2715906a1c"
 
   url "https://github.com/hulryung/hidpi/releases/download/v#{version}/HiDPI-#{version}.dmg"
   name "HiDPI"
