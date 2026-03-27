@@ -1,6 +1,6 @@
 cask "hangulkeychanger" do
-  version "2.3.0"
-  sha256 "7fe3b849436e2576707bcb0bfb7621361715a8c1e5db18e47b84bab99d2f3948"
+  version "2.3.1"
+  sha256 "34e052e88de14d24a1c72e145ae9daa09694c45c4a3d8dd0ac0802e588f97883"
 
   url "https://github.com/hulryung/HangulKeyChanger/releases/download/v#{version}/HangulCommandApp-#{version}.dmg"
   name "Hangul Key Changer"
