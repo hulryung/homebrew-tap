@@ -1,6 +1,6 @@
 cask "markdown-prism" do
   version "0.4.4"
-  sha256 "4faf445f50119f476fa28eef5fef8627028c38af29496e8dbd424a9760d1f412"
+  sha256 "5a37567f5bd2169d0d86615bf46940531f887550106fd2dfe228fd856033150a"
 
   url "https://github.com/hulryung/markdown-prism/releases/download/v#{version}/MarkdownPrism-#{version}.dmg"
   name "Markdown Prism"
