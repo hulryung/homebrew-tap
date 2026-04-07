@@ -1,6 +1,6 @@
 cask "hiterm" do
-  version "0.3.2"
-  sha256 "31fa95969b8074a0ec9ff93eafab31dbc11a61880312f1b5b35a433303d3ab20"
+  version "0.3.4"
+  sha256 "efa99962fd6ec55ad31a0a117f8420cd19351eba8d02b2e3e0a5d119d841e5a5"
 
   url "https://github.com/hulryung/hiterm/releases/download/v#{version}/hiterm-#{version}.dmg"
   name "hiterm"
