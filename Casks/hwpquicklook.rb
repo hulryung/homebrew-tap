@@ -1,10 +1,10 @@
 cask "hwpquicklook" do
-  version "0.2.0"
-  sha256 "2896321d1e1e8e7fe4efa9b346c208035f7c497da88f0222769d892e9ca40d7d"
+  version "0.3.0"
+  sha256 "c1b4f4d7bf9ef4f8ea9c879ba0c65e240f0735d3f11a0d34045c819f1d7582d2"
 
-  url "https://github.com/hulryung/hwpql/releases/download/v#{version}/HWPQuickLook.zip"
+  url "https://github.com/hulryung/hwpql/releases/download/v#{version}/HWPQuickLook-v#{version}.dmg"
   name "HWP Quick Look"
-  desc "Quick Look extension for HWP and HWPX documents on macOS"
+  desc "Quick Look extension and standalone viewer for HWP/HWPX documents on macOS"
   homepage "https://github.com/hulryung/hwpql"
 
   depends_on macos: ">= :monterey"
