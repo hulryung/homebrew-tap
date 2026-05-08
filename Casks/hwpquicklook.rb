@@ -1,6 +1,6 @@
 cask "hwpquicklook" do
-  version "0.4.1"
-  sha256 "b8d176c6a3850c15dacedfffcb44380a49365a4ce9373d501a6fe81d3020653d"
+  version "0.4.2"
+  sha256 "b68ed14b6cc42032639ec91e930dcb97c1130546564cca978f6941e2f19675d2"
 
   url "https://github.com/hulryung/hwpql/releases/download/v#{version}/HWPQuickLook-v#{version}.dmg"
   name "HWP Quick Look"
