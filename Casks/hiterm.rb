@@ -7,7 +7,7 @@ cask "hiterm" do
   desc "macOS-native terminal emulator built on libghostty with smooth scrolling"
   homepage "https://github.com/hulryung/hiterm"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "hiterm.app"
 

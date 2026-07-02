@@ -7,7 +7,7 @@ cask "hwpquicklook" do
   desc "Quick Look extension and standalone viewer for HWP/HWPX documents on macOS"
   homepage "https://github.com/hulryung/hwpql"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "HWPQuickLook.app"
 

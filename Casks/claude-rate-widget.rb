@@ -7,7 +7,7 @@ cask "claude-rate-widget" do
   desc "macOS widget that monitors Claude Code rate limits"
   homepage "https://rate.huconn.xyz/"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Claude Rate Widget.app"
 

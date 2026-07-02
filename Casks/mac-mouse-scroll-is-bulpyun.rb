@@ -7,7 +7,7 @@ cask "mac-mouse-scroll-is-bulpyun" do
   desc "Reverse mouse scroll direction without affecting trackpad"
   homepage "https://github.com/hulryung/mac-mouse-scroll-is-bulpyun"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "mac-mouse-scroll-is-bulpyun.app"
 end

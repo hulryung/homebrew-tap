@@ -7,7 +7,7 @@ cask "hidpi" do
   desc "macOS external monitor HiDPI management and DDC/CI brightness control"
   homepage "https://github.com/hulryung/hidpi"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "HiDPI.app"
 

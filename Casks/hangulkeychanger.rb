@@ -7,7 +7,7 @@ cask "hangulkeychanger" do
   desc "Remap keys for Korean/English input switching on macOS"
   homepage "https://github.com/hulryung/HangulKeyChanger"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Hangul Key Changer.app"
 
