@@ -7,7 +7,7 @@ cask "markdown-prism" do
   desc "Native macOS Markdown viewer and editor with live preview"
   homepage "https://prism.huconn.xyz"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "MarkdownPrism.app"
 
