@@ -1,11 +1,23 @@
 # homebrew-tap
 
-Personal Homebrew tap for macOS applications.
+Personal Homebrew tap for macOS applications and command-line tools.
 
 ## Usage
 
 ```bash
 brew tap hulryung/tap
+```
+
+## Available Formulae
+
+| Formula | Description | Version |
+|---------|-------------|---------|
+| `ttyforge` | Forge virtual serial ports: null-modem pairs, device simulators, bridges, muxes | 0.1.0 |
+
+### Install
+
+```bash
+brew install hulryung/tap/ttyforge
 ```
 
 ## Available Casks
