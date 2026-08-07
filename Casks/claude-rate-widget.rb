@@ -1,6 +1,6 @@
 cask "claude-rate-widget" do
-  version "1.8.0"
-  sha256 "8b6faa49000e4737a80883ed5bd95538c5b8d960c293d98673df634c4526c733"
+  version "1.9.0"
+  sha256 "a0441c8b607aa02885aa1719973c5a8dc58fdad4c18d8d3603e4ce467684b159"
 
   url "https://github.com/hulryung/cc-rate-widget/releases/download/v#{version}/ClaudeRateWidget-v#{version}.dmg"
   name "Claude Rate Widget"
