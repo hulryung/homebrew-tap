@@ -5,7 +5,7 @@ cask "claude-rate-widget" do
   url "https://github.com/hulryung/cc-rate-widget/releases/download/v#{version}/ClaudeRateWidget-v#{version}.dmg"
   name "Claude Rate Widget"
   desc "macOS widget that monitors Claude Code rate limits"
-  homepage "https://rate.huconn.xyz/"
+  homepage "https://rate.huconn.com/"
 
   depends_on macos: :sonoma
 
