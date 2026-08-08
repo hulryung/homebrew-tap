@@ -4,7 +4,7 @@ cask "claude-rate-widget" do
 
   url "https://github.com/hulryung/cc-rate-widget/releases/download/v#{version}/ClaudeRateWidget-v#{version}.dmg"
   name "Claude Rate Widget"
-  desc "macOS widget that monitors Claude Code rate limits"
+  desc "Menu bar app that monitors Claude Code token usage and cost"
   homepage "https://rate.huconn.com/"
 
   depends_on macos: :sonoma
@@ -12,7 +12,10 @@ cask "claude-rate-widget" do
   app "Claude Rate Widget.app"
 
   zap trash: [
-    "~/Library/Containers/com.huconn.CCRateWidget",
-    "~/Library/Group Containers/group.com.huconn.CCRateWidget",
+    "~/Library/Application Support/Claude Rate Widget",
+    "~/Library/Caches/com.dkkang.cc-rate-widget",
+    "~/Library/Group Containers/group.com.dkkang.cc-rate-widget",
+    "~/Library/HTTPStorages/com.dkkang.cc-rate-widget",
+    "~/Library/Preferences/com.dkkang.cc-rate-widget.plist",
   ]
 end
