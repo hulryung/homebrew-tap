@@ -2,18 +2,14 @@ cask "claude-rate-monitor" do
   version "1.10.0"
   sha256 "d4c277c07d8207e1e4654ca5dcd5e0a195273cddeb4dcd102486cb251262555c"
 
-  # 1.9.0 shipped before the app was renamed, so the asset and the bundle inside it are
-  # still ClaudeRateWidget/Claude Rate Widget.app. The release workflow rewrites only
-  # version and sha256 — url, name and app have to be moved by hand when the first
-  # Claude Rate Monitor build ships.
-  url "https://github.com/hulryung/claude-rate-monitor/releases/download/v#{version}/ClaudeRateWidget-v#{version}.dmg"
-  name "Claude Rate Widget"
+  url "https://github.com/hulryung/claude-rate-monitor/releases/download/v#{version}/ClaudeRateMonitor-v#{version}.dmg"
+  name "Claude Rate Monitor"
   desc "Menu bar app that monitors Claude Code token usage and cost"
   homepage "https://rate.hulryung.com/"
 
   depends_on macos: :sonoma
 
-  app "Claude Rate Widget.app"
+  app "Claude Rate Monitor.app"
 
   zap trash: [
     "~/Library/Application Support/Claude Rate Monitor",
