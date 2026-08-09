@@ -1,6 +1,6 @@
 cask "claude-rate-monitor" do
-  version "1.9.0"
-  sha256 "a0441c8b607aa02885aa1719973c5a8dc58fdad4c18d8d3603e4ce467684b159"
+  version "1.10.0"
+  sha256 "d4c277c07d8207e1e4654ca5dcd5e0a195273cddeb4dcd102486cb251262555c"
 
   # 1.9.0 shipped before the app was renamed, so the asset and the bundle inside it are
   # still ClaudeRateWidget/Claude Rate Widget.app. The release workflow rewrites only
