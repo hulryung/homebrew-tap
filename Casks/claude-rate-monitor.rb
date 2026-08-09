@@ -9,7 +9,7 @@ cask "claude-rate-monitor" do
   url "https://github.com/hulryung/claude-rate-monitor/releases/download/v#{version}/ClaudeRateWidget-v#{version}.dmg"
   name "Claude Rate Widget"
   desc "Menu bar app that monitors Claude Code token usage and cost"
-  homepage "https://rate.huconn.com/"
+  homepage "https://rate.hulryung.com/"
 
   depends_on macos: :sonoma
 
