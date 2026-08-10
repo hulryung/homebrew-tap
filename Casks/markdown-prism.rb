@@ -1,11 +1,11 @@
 cask "markdown-prism" do
-  version "0.7.1"
-  sha256 "c924175d233f45a19b54f067ed567d74eb3932c63195cf5ff4e79f820f0629d0"
+  version "0.7.2"
+  sha256 "e1e25f68e374bd83de10914f1bfac4de625e46070d89d43dea2018bbedab19b5"
 
   url "https://github.com/hulryung/markdown-prism/releases/download/v#{version}/MarkdownPrism-#{version}.dmg"
   name "Markdown Prism"
   desc "Native macOS Markdown viewer and editor with live preview"
-  homepage "https://prism.hulryung.com"
+  homepage "https://prism.huconn.com"
 
   depends_on macos: :sonoma
 
