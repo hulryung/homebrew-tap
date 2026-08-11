@@ -1,6 +1,6 @@
 cask "claude-rate-monitor" do
-  version "1.11.0"
-  sha256 "6d321ec78416d3fc88d96184f5169a4909c1ce323efae85c5eb4d5120213b218"
+  version "1.11.1"
+  sha256 "69d13e542422df7a6a6fe446e005c9d26c1aa7f03b44e2e288646d6a800382d9"
 
   url "https://github.com/hulryung/claude-rate-monitor/releases/download/v#{version}/ClaudeRateMonitor-v#{version}.dmg"
   name "Claude Rate Monitor"
