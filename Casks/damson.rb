@@ -1,6 +1,6 @@
 cask "damson" do
-  version "0.9.1"
-  sha256 "d129645ba4ae7290626e47bc7ac6f730ff8c11fd91e552081db0f0badfdeb281"
+  version "0.10.0"
+  sha256 "55add88c5441388ff7ed3ac99b3444fc756ea05f16eff81ec752dc880a5d3354"
 
   url "https://github.com/hulryung/damson/releases/download/v#{version}/Damson-#{version}.dmg"
   name "Damson"
