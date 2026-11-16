@@ -25,6 +25,7 @@ brew install hulryung/tap/ttyforge
 | Cask | Description | Version |
 |------|-------------|---------|
 | `claude-rate-monitor` | Menu bar app that monitors Claude Code token usage and cost | 1.10.0 |
+| `damson` | GPU-accelerated terminal with smooth scrolling and Korean input | 0.9.1 |
 | `hangulkeychanger` | Remap keys for Korean/English input switching on macOS | 2.4.0 |
 | `hwpquicklook` | Quick Look extension and standalone viewer for HWP/HWPX documents on macOS | 0.6.0 |
 | `markdown-prism` | Native macOS Markdown viewer and editor with live preview | 0.7.1 |
